@@ -16,6 +16,7 @@ function getDogImage(number) {
 
 
 function showPups(responseJson) {
+    console.log(responseJson)
     $('ul').append(
         `<li><img src=${responseJson}></li>`
     )
